@@ -37,7 +37,7 @@ const Hero = () => {
               width={240} // or appropriate width
               height={240} // or appropriate height
               className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover"
-              style={{ objectPosition: 'top 20%' }}
+              style={{ objectPosition: 'top' }}
             />
           </div>
           <div className="flex flex-col items-start justify-center ml-16 md:ml-24 lg:ml-32 max-w-full md:max-w-[60%] lg:max-w-[80%]">
