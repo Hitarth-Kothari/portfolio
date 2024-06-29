@@ -2,6 +2,7 @@ import { TextGenerateEffect } from "./ui/TextGeneratorEffect";
 import { Spotlight } from "./ui/Spotlight";
 import MagicButton from "./ui/MagicButton";
 import { FaFileAlt, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -30,11 +31,13 @@ const Hero = () => {
       <div className="flex justify-center relative min--screen my-20 z-10">
         <div className="sm:max-w-[89vw] md:max-w-2xl lg:max-w-[90vw] flex flex-col md:flex-row items-center justify-center">
           <div className="flex-shrink-0">
-            <img
-              src="pictures\meeeee.JPG"
+            <Image
+              src="/pictures/meeeee.JPG"
               alt="Profile Picture"
+              width={240} // or appropriate width
+              height={240} // or appropriate height
               className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover"
-              style={{ objectPosition: 'top' }}
+              style={{ objectPosition: 'top 20%' }}
             />
           </div>
           <div className="flex flex-col items-start justify-center ml-16 md:ml-24 lg:ml-32 max-w-full md:max-w-[60%] lg:max-w-[80%]">
@@ -56,7 +59,7 @@ const Hero = () => {
               className="text-left text-3xl md:text-4xl lg:text-5xl font-bold text-purple"
             />
             <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! I'm Hitarth, a graduate from the University of Alberta with a passion for games and programming. I thrive on challenges and love diving into new projects, whether it's developing an innovative app or creating a captivating video game. I am a fun-loving individual who enjoys bringing creativity and enthusiasm to everything I do. Dedicated and hardworking, I take pride in delivering high-quality work and continuously learning new skills. Outside of coding, I enjoy exploring the latest gaming trends and sharing my excitement for technology with others. Let's connect and create something amazing together!
+              Hi! I&apos;m Hitarth, a graduate from the University of Alberta with a passion for games and programming. I thrive on challenges and love diving into new projects, whether it&apos;s developing an innovative app or creating a captivating video game. I am a fun-loving individual who enjoys bringing creativity and enthusiasm to everything I do. Dedicated and hardworking, I take pride in delivering high-quality work and continuously learning new skills. Outside of coding, I enjoy exploring the latest gaming trends and sharing my excitement for technology with others. Let&apos;s connect and create something amazing together!
             </p>
             <div className="w-full flex justify-center mt-4">
               <div className="flex space-x-4 w-1/2">
