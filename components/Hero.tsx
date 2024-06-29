@@ -3,10 +3,10 @@ import { Spotlight } from "./ui/Spotlight";
 import MagicButton from "./ui/MagicButton";
 import { FaFileAlt, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 
 const Hero = () => {
-  const { basePath } = useRouter();
+  const basePath = usePathname().startsWith('/portfolio') ? '/portfolio' : '';
   
   return (
     <div className="pb-20 pt-36">
