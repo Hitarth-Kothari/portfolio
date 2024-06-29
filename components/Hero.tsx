@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="sm:max-w-[89vw] md:max-w-2xl lg:max-w-[90vw] flex flex-col md:flex-row items-center justify-center">
           <div className="flex-shrink-0">
             <Image
-              src="/public/pictures/meeeee.JPG"
+              src="/pictures/meeeee.JPG"
               alt="Profile Picture"
               width={240} // or appropriate width
               height={240} // or appropriate height
@@ -63,7 +63,7 @@ const Hero = () => {
             </p>
             <div className="w-full flex justify-center mt-4">
               <div className="flex space-x-4 w-1/2">
-                <a href="/public/resume.pdf" target="_blank" rel="noopener noreferrer" className="flex-1">
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="flex-1">
                   <MagicButton
                     title="Resume"
                     icon={<FaFileAlt />}
