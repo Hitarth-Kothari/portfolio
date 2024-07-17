@@ -34,8 +34,8 @@ const Hero = () => {
             <Image
               src="pictures/meeeee.JPG"
               alt="Profile Picture"
-              width={240} // or appropriate width
-              height={240} // or appropriate height
+              width={240}
+              height={240}
               className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover"
               style={{ objectPosition: 'top' }}
             />
