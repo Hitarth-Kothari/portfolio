@@ -12,7 +12,7 @@ export function FloatingNavDemo() {
     },
     {
       name: "Projects",
-      link: "#projects",
+      link: "#projects_page",
       icon: <IconBriefcase className="h-4 w-4 text-neutral-200" />,
     },
     {

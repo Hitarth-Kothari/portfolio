@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import { FloatingNavDemo } from "@/components/FloatingNavDemo";
+import RecentProjects from "@/components/RecentProjects";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <FloatingNavDemo />
       <div className="max-w-full w-full px-4 lg:px-8">
         <Hero />
+        <RecentProjects />
       </div>
     </main>
   );
