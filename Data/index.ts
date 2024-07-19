@@ -4,15 +4,15 @@ export const projects = [
       title: "Cricket Ball Detector",
       des: "This project focuses on detecting cricket balls in images using a Convolutional Neural Network (CNN)",
       img: "pictures/cricket.svg",
-      iconLists: ["/python.svg", "/pytorch.svg", "/tensorflow.svg"],
+      iconLists: ["pictures/python.svg", "pictures/pytorch.svg", "pictures/tensorflow.svg"],
       link: "https://github.com/Hitarth-Kothari/Cricket_ball_detection",
     },
     {
       id: 2,
-      title: "Instict",
+      title: "Instinct",
       des: "An engaging balloon-popping game developed using Unity",
       img: "pictures/instinct.svg",
-      iconLists: ["/unity.svg"],
+      iconLists: ["pictures/unity.svg"],
       link: "https://github.com/Hitarth-Kothari/Instinct",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       title: "SnackOverflow",
       des: "An Android Application to manage your meals for the week",
       img: "pictures/snackoverflow.svg",
-      iconLists: ["/java.svg", "/android.svg"],
+      iconLists: ["pictures/java.svg", "pictures/android.svg"],
       link: "https://github.com/Hitarth-Kothari/SnackOverflow",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       title: "Dodge the Box",
       des: "Dodge the Box is an exciting game developed entirely in C++",
       img: "pictures/dodge.svg",
-      iconLists: ["/c.svg"],
+      iconLists: ["pictures/c.svg"],
       link: "https://github.com/Hitarth-Kothari/Dodge_the_box_game",
     },
   ];
