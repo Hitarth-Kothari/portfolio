@@ -1,12 +1,11 @@
 import { TextGenerateEffect } from "./ui/TextGeneratorEffect";
 import { Spotlight } from "./ui/Spotlight";
-import MagicButton from "./ui/MagicButton";
-import { FaFileAlt, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div id="about" className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -34,8 +33,8 @@ const Hero = () => {
             <Image
               src="pictures/meeeee.JPG"
               alt="Profile Picture"
-              width={240} // or appropriate width
-              height={240} // or appropriate height
+              width={240}
+              height={240}
               className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover"
               style={{ objectPosition: 'top' }}
             />
@@ -61,24 +60,6 @@ const Hero = () => {
             <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
               Hi! I&apos;m Hitarth, a graduate from the University of Alberta with a passion for games and programming. I thrive on challenges and love diving into new projects, whether it&apos;s developing an innovative app or creating a captivating video game. I am a fun-loving individual who enjoys bringing creativity and enthusiasm to everything I do. Dedicated and hardworking, I take pride in delivering high-quality work and continuously learning new skills. Outside of coding, I enjoy exploring the latest gaming trends and sharing my excitement for technology with others. Let&apos;s connect and create something amazing together!
             </p>
-            <div className="w-full flex justify-center mt-4">
-              <div className="flex space-x-4 w-1/2">
-                <a href="/portfolio/resume.pdf" target="_blank" rel="noopener noreferrer" className="flex-1">
-                  <MagicButton
-                    title="Resume"
-                    icon={<FaFileAlt />}
-                    position="right"
-                  />
-                </a>
-                <a href="mailto:hitarthkothari03@gmail.com?subject=Hi Hitarth,I would like to connect!" target="_blank" rel="noopener noreferrer" className="flex-1">
-                  <MagicButton
-                    title="Contact"
-                    icon={<FaEnvelope />}
-                    position="right"
-                  />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
