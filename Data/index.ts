@@ -2,7 +2,7 @@ export const projects = [
     {
       id: 1,
       title: "Cricket Ball Detector",
-      des: "This project focuses on detecting cricket balls in images using a Convolutional Neural Network (CNN)",
+      des: "A Convolutional Neural Network (CNN) for detecting cricket balls in images",
       img: "pictures/cricket.svg",
       iconLists: ["pictures/python.svg", "pictures/pytorch.svg", "pictures/tensorflow.svg"],
       link: "https://github.com/Hitarth-Kothari/Cricket_ball_detection",
@@ -26,10 +26,26 @@ export const projects = [
     {
       id: 4,
       title: "Dodge the Box",
-      des: "Dodge the Box is an exciting game developed entirely in C++",
+      des: "An exciting game called Dodge the Box, developed entirely in C++",
       img: "pictures/dodge.svg",
       iconLists: ["pictures/c.svg"],
       link: "https://github.com/Hitarth-Kothari/Dodge_the_box_game",
+    },
+    {
+      id: 6,
+      title: "Chess Engine",
+      des: "A versatile web-based chess board editor and engine",
+      img: "pictures/chess.svg",
+      iconLists: ["pictures/javascript-icon.svg", "pictures/w3_html5-icon.svg"],
+      link: "https://github.com/Hitarth-Kothari/",
+    },
+    {
+      id: 5,
+      title: "My Github",
+      des: "For more exciting projects",
+      img: "pictures/github.svg",
+      iconLists: ["pictures/github_icon.svg"],
+      link: "https://github.com/Hitarth-Kothari/",
     },
   ];
   
