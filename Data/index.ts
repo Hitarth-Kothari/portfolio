@@ -32,15 +32,15 @@ export const projects = [
       link: "https://github.com/Hitarth-Kothari/Dodge_the_box_game",
     },
     {
-      id: 6,
+      id: 5,
       title: "Chess Engine",
       des: "A versatile web-based chess board editor and engine",
       img: "pictures/chess.svg",
       iconLists: ["pictures/javascript-icon.svg", "pictures/w3_html5-icon.svg"],
-      link: "https://github.com/Hitarth-Kothari/",
+      link: "https://github.com/Hitarth-Kothari/ChessGameEvaluator",
     },
     {
-      id: 5,
+      id: 6,
       title: "My Github",
       des: "For more exciting projects",
       img: "pictures/github.svg",
